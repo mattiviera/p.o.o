@@ -1,11 +1,11 @@
-from service.luz import LuzBlanca
+from service.luz import LuzPatio
 
-class LuzController:
+class LuzControllerPatio:
     def __init__(self):
-        self.luz = LuzBlanca()
-
+        self.luz = LuzPatio()
+        
     def encender_luz(self):
         return self.luz.encender()
-
+    
     def apagar_luz(self):
         return self.luz.apagar()

@@ -40,5 +40,5 @@ class LuzPatio(Luz):
     
 class ApagarTodo(Luz):
     def apagar(self):
-        return "Se apagaron todas las luces"
+        return "Se apagaron todas las luces."
 

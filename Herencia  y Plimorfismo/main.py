@@ -13,7 +13,7 @@ if __name__ == "__main__":
     loki = EnemigoMarvel("Loki", 1000, "Masculino", "Engaño")
     
     batman = HeroeDC("Batman", 35, "Masculino", "Sigilo")
-    joker = EnemigoDC("Joker", 45, "Masculino", "Poker")
+    joker = EnemigoDC("Joker", 45, "Masculino", "Poker", "Invencible")
 
     print(thor)
     thor.hablar()

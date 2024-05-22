@@ -14,6 +14,9 @@ if __name__ == "__main__":
     
     batman = HeroeDC("Batman", 35, "Masculino", "Sigilo")
     joker = EnemigoDC("Joker", 45, "Masculino", "Poker", "Invencible")
+    
+    flash = HeroeDC ("Flash","20", "Masculino", "Super Velocidad")
+    reverseflash = EnemigoDC ("Flash Reverso","52", "Masculino", "Tiempo Alterno", "Tu creador Flash")
 
     print(thor)
     thor.hablar()
@@ -30,3 +33,14 @@ if __name__ == "__main__":
     print(joker)
     joker.hablar()
     joker.atacar()
+    
+    print(flash)
+    flash.hablar()
+    flash.atacar()
+    
+    print(reverseflash)
+    reverseflash.hablar()
+    reverseflash.atacar()
+
+
+

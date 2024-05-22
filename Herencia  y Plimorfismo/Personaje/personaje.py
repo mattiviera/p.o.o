@@ -11,7 +11,7 @@ class Personaje(ABC):
         pass
 
     def hablar(self):
-        print(f"{self.nombre}: ¡Hola! Soy un personaje.")
+        print(f"{self.nombre}: ¡Hola! Soy  {self.nombre}")
 
     def __str__(self):
         return f"{self.nombre} ({self.edad} años, {self.genero})"

@@ -3,8 +3,8 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '')))
 
-from Marvel import HeroeMarvel, EnemigoMarvel
-from DC import HeroeDC, EnemigoDC
+from ServiceMarvel import HeroeMarvel, EnemigoMarvel
+from ServiceDC import HeroeDC, EnemigoDC
 
 if __name__ == "__main__":
     thor = HeroeMarvel("Thor", 1000, "Masculino", "Rompe Tormentas", "Mjolnir")

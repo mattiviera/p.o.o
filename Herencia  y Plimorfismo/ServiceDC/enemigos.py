@@ -1,4 +1,4 @@
-from Personaje.personaje import Personaje
+from ControllerPersonaje.personaje import Personaje
 
 class EnemigoDC(Personaje):
     def __init__(self, nombre, edad, genero, habilidad, frase):
